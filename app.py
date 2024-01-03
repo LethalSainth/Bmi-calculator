@@ -11,8 +11,8 @@ from bmi_calc_function import bmi_calc
 def home():
     return render_template('index.html')
 
-@app.route('/predict', methods=['POST'])        #you will have to edit out predict
-def predict():
+@app.route('/index', methods=['POST'])        #you will have to edit out predict
+def index():
 
     weight = request.form['weight']
     height = request.form['height']

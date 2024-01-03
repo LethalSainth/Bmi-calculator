@@ -13,11 +13,11 @@
 
 <body style="background: rgb(23, 201, 233);">
  <div class="login">
-	<h1>Basic Calculator</h1>
+	<h1>BMI Calculator</h1>
 
      <!-- Main Input For Receiving Query to our ML -->
 
-    <form action="{{ url_for('predict')}}"method="post">
+    <form action="{{ url_for('index')}}"method="post">
         <input type="text" name="weight" placeholder="Enter the Weight(kg)" required="required" />
         <input type="text" name="height" placeholder="Enter the Height(cm)" required="required" />
         <!-- <input type="text" name="operation" placeholder="add / subtract / divide / multiply" required="required" /> -->
